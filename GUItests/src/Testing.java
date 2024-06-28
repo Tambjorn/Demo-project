@@ -36,7 +36,7 @@ public class Testing{
 		label.setText("Right-click to close, ctrl-s to save");
 		label.setHorizontalAlignment(JLabel.CENTER);
 		label.setFont(new Font("Helvetica", Font.PLAIN, 20));
-		label.addMouseListener(new MouseListener(){
+	/*	label.addMouseListener(new MouseListener(){
 			public void mouseClicked(MouseEvent e){
 				System.out.println("Click");
 				frame1.dispose();
@@ -60,7 +60,7 @@ public class Testing{
 			}
 		});
 
-
+*/
 		
 		
 		frame1.getContentPane().setBackground(new Color(randomColor_Red, randomColor_Green, randomColor_Blue));
